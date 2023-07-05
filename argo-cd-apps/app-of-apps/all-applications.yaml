@@ -9,8 +9,8 @@ spec:
   project: default
   source:
     path: argo-cd-apps/overlays/crc
-    repoURL: https://github.com/jduimovich/standalone-hac.git
-    targetRevision: main
+    repoURL: https://github.com/bootstrap-rhtap/standalone-hac.git
+    targetRevision: preview-stoneintg-498
   destination:
     namespace: openshift-gitops
     server: https://kubernetes.default.svc
